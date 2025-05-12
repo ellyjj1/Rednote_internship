@@ -2,7 +2,7 @@ name: Daily Rednote Scraper
 
 on:
   schedule:
-    - cron: "0 2 * * *"  # 每天 UTC 时间 2 点（NZ时间约中午）
+    - cron: "0 12 * * *"  # 每天 UTC 时间 12 点（NZ时间约midnight）
   workflow_dispatch:      # 手动触发支持
 
 jobs:
